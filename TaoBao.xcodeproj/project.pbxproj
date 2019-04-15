@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE4D5EE32264BEBF00EC749B /* Home.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4D5EE22264BEBF00EC749B /* Home.xib */; };
+		DE4D5EE62264BFB800EC749B /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4D5EE52264BFB800EC749B /* Home.m */; };
+		DE4D5EEA2264BFCA00EC749B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4D5EE92264BFCA00EC749B /* HomeViewController.m */; };
+		DE6411B92264BC8900CD4ADF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6411B82264BC8900CD4ADF /* AppDelegate.m */; };
+		DE6411C12264BC8A00CD4ADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE6411C02264BC8A00CD4ADF /* Assets.xcassets */; };
+		DE6411C42264BC8A00CD4ADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE6411C22264BC8A00CD4ADF /* LaunchScreen.storyboard */; };
+		DE6411C72264BC8A00CD4ADF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6411C62264BC8A00CD4ADF /* main.m */; };
+		DE6411D12264BC8A00CD4ADF /* TaoBaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6411D02264BC8A00CD4ADF /* TaoBaoTests.m */; };
+		DE6411DC2264BC8A00CD4ADF /* TaoBaoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6411DB2264BC8A00CD4ADF /* TaoBaoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE6411CD2264BC8A00CD4ADF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE6411AC2264BC8900CD4ADF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE6411B32264BC8900CD4ADF;
+			remoteInfo = TaoBao;
+		};
+		DE6411D82264BC8A00CD4ADF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE6411AC2264BC8900CD4ADF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE6411B32264BC8900CD4ADF;
+			remoteInfo = TaoBao;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE4D5EE22264BEBF00EC749B /* Home.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Home.xib; sourceTree = "<group>"; };
+		DE4D5EE42264BFB800EC749B /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		DE4D5EE52264BFB800EC749B /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		DE4D5EE82264BFCA00EC749B /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		DE4D5EE92264BFCA00EC749B /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		DE4D5EEB2264C09400EC749B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DE6411B42264BC8900CD4ADF /* TaoBao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaoBao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6411B72264BC8900CD4ADF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE6411B82264BC8900CD4ADF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE6411C02264BC8A00CD4ADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE6411C32264BC8A00CD4ADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE6411C52264BC8A00CD4ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE6411C62264BC8A00CD4ADF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE6411CC2264BC8A00CD4ADF /* TaoBaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaoBaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6411D02264BC8A00CD4ADF /* TaoBaoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaoBaoTests.m; sourceTree = "<group>"; };
+		DE6411D22264BC8A00CD4ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE6411D72264BC8A00CD4ADF /* TaoBaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaoBaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6411DB2264BC8A00CD4ADF /* TaoBaoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaoBaoUITests.m; sourceTree = "<group>"; };
+		DE6411DD2264BC8A00CD4ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE6411B12264BC8900CD4ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE6411C92264BC8A00CD4ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE6411D42264BC8A00CD4ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE4D5EDE2264BE9D00EC749B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DE4D5EE02264BEAC00EC749B /* View */,
+				DE4D5EDF2264BEA300EC749B /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DE4D5EDF2264BEA300EC749B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE4D5EE82264BFCA00EC749B /* HomeViewController.h */,
+				DE4D5EE92264BFCA00EC749B /* HomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DE4D5EE02264BEAC00EC749B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE4D5EE22264BEBF00EC749B /* Home.xib */,
+				DE4D5EE42264BFB800EC749B /* Home.h */,
+				DE4D5EE52264BFB800EC749B /* Home.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE6411AB2264BC8900CD4ADF = {
+			isa = PBXGroup;
+			children = (
+				DE6411B62264BC8900CD4ADF /* TaoBao */,
+				DE6411CF2264BC8A00CD4ADF /* TaoBaoTests */,
+				DE6411DA2264BC8A00CD4ADF /* TaoBaoUITests */,
+				DE6411B52264BC8900CD4ADF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE6411B52264BC8900CD4ADF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE6411B42264BC8900CD4ADF /* TaoBao.app */,
+				DE6411CC2264BC8A00CD4ADF /* TaoBaoTests.xctest */,
+				DE6411D72264BC8A00CD4ADF /* TaoBaoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE6411B62264BC8900CD4ADF /* TaoBao */ = {
+			isa = PBXGroup;
+			children = (
+				DE6411EA2264BD5E00CD4ADF /* Vendor */,
+				DE6411E92264BD5700CD4ADF /* Application */,
+				DE6411C02264BC8A00CD4ADF /* Assets.xcassets */,
+				DE6411C22264BC8A00CD4ADF /* LaunchScreen.storyboard */,
+				DE6411C52264BC8A00CD4ADF /* Info.plist */,
+				DE6411C62264BC8A00CD4ADF /* main.m */,
+			);
+			path = TaoBao;
+			sourceTree = "<group>";
+		};
+		DE6411CF2264BC8A00CD4ADF /* TaoBaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE6411D02264BC8A00CD4ADF /* TaoBaoTests.m */,
+				DE6411D22264BC8A00CD4ADF /* Info.plist */,
+			);
+			path = TaoBaoTests;
+			sourceTree = "<group>";
+		};
+		DE6411DA2264BC8A00CD4ADF /* TaoBaoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE6411DB2264BC8A00CD4ADF /* TaoBaoUITests.m */,
+				DE6411DD2264BC8A00CD4ADF /* Info.plist */,
+			);
+			path = TaoBaoUITests;
+			sourceTree = "<group>";
+		};
+		DE6411E92264BD5700CD4ADF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DE4D5EDE2264BE9D00EC749B /* Home */,
+				DE6411EB2264BD6700CD4ADF /* App */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		DE6411EA2264BD5E00CD4ADF /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				DE4D5EEB2264C09400EC749B /* PrefixHeader.pch */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		DE6411EB2264BD6700CD4ADF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DE6411B72264BC8900CD4ADF /* AppDelegate.h */,
+				DE6411B82264BC8900CD4ADF /* AppDelegate.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE6411B32264BC8900CD4ADF /* TaoBao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE6411E02264BC8A00CD4ADF /* Build configuration list for PBXNativeTarget "TaoBao" */;
+			buildPhases = (
+				DE6411B02264BC8900CD4ADF /* Sources */,
+				DE6411B12264BC8900CD4ADF /* Frameworks */,
+				DE6411B22264BC8900CD4ADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaoBao;
+			productName = TaoBao;
+			productReference = DE6411B42264BC8900CD4ADF /* TaoBao.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE6411CB2264BC8A00CD4ADF /* TaoBaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE6411E32264BC8A00CD4ADF /* Build configuration list for PBXNativeTarget "TaoBaoTests" */;
+			buildPhases = (
+				DE6411C82264BC8A00CD4ADF /* Sources */,
+				DE6411C92264BC8A00CD4ADF /* Frameworks */,
+				DE6411CA2264BC8A00CD4ADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE6411CE2264BC8A00CD4ADF /* PBXTargetDependency */,
+			);
+			name = TaoBaoTests;
+			productName = TaoBaoTests;
+			productReference = DE6411CC2264BC8A00CD4ADF /* TaoBaoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE6411D62264BC8A00CD4ADF /* TaoBaoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE6411E62264BC8A00CD4ADF /* Build configuration list for PBXNativeTarget "TaoBaoUITests" */;
+			buildPhases = (
+				DE6411D32264BC8A00CD4ADF /* Sources */,
+				DE6411D42264BC8A00CD4ADF /* Frameworks */,
+				DE6411D52264BC8A00CD4ADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE6411D92264BC8A00CD4ADF /* PBXTargetDependency */,
+			);
+			name = TaoBaoUITests;
+			productName = TaoBaoUITests;
+			productReference = DE6411D72264BC8A00CD4ADF /* TaoBaoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE6411AC2264BC8900CD4ADF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = QiuHao;
+				TargetAttributes = {
+					DE6411B32264BC8900CD4ADF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DE6411CB2264BC8A00CD4ADF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DE6411B32264BC8900CD4ADF;
+					};
+					DE6411D62264BC8A00CD4ADF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DE6411B32264BC8900CD4ADF;
+					};
+				};
+			};
+			buildConfigurationList = DE6411AF2264BC8900CD4ADF /* Build configuration list for PBXProject "TaoBao" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE6411AB2264BC8900CD4ADF;
+			productRefGroup = DE6411B52264BC8900CD4ADF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE6411B32264BC8900CD4ADF /* TaoBao */,
+				DE6411CB2264BC8A00CD4ADF /* TaoBaoTests */,
+				DE6411D62264BC8A00CD4ADF /* TaoBaoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE6411B22264BC8900CD4ADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6411C42264BC8A00CD4ADF /* LaunchScreen.storyboard in Resources */,
+				DE4D5EE32264BEBF00EC749B /* Home.xib in Resources */,
+				DE6411C12264BC8A00CD4ADF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE6411CA2264BC8A00CD4ADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE6411D52264BC8A00CD4ADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE6411B02264BC8900CD4ADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6411C72264BC8A00CD4ADF /* main.m in Sources */,
+				DE6411B92264BC8900CD4ADF /* AppDelegate.m in Sources */,
+				DE4D5EE62264BFB800EC749B /* Home.m in Sources */,
+				DE4D5EEA2264BFCA00EC749B /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE6411C82264BC8A00CD4ADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6411D12264BC8A00CD4ADF /* TaoBaoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE6411D32264BC8A00CD4ADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6411DC2264BC8A00CD4ADF /* TaoBaoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE6411CE2264BC8A00CD4ADF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE6411B32264BC8900CD4ADF /* TaoBao */;
+			targetProxy = DE6411CD2264BC8A00CD4ADF /* PBXContainerItemProxy */;
+		};
+		DE6411D92264BC8A00CD4ADF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE6411B32264BC8900CD4ADF /* TaoBao */;
+			targetProxy = DE6411D82264BC8A00CD4ADF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE6411C22264BC8A00CD4ADF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE6411C32264BC8A00CD4ADF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE6411DE2264BC8A00CD4ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE6411DF2264BC8A00CD4ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE6411E12264BC8A00CD4ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XP44VQ4CP;
+				GCC_PREFIX_HEADER = /Users/qiuhao/Desktop/TaoBao/TaoBao/Vendor/PrefixHeader.pch;
+				INFOPLIST_FILE = TaoBao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QiuHao.TaoBao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DE6411E22264BC8A00CD4ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XP44VQ4CP;
+				GCC_PREFIX_HEADER = /Users/qiuhao/Desktop/TaoBao/TaoBao/Vendor/PrefixHeader.pch;
+				INFOPLIST_FILE = TaoBao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QiuHao.TaoBao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DE6411E42264BC8A00CD4ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XP44VQ4CP;
+				INFOPLIST_FILE = TaoBaoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QiuHao.TaoBaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaoBao.app/TaoBao";
+			};
+			name = Debug;
+		};
+		DE6411E52264BC8A00CD4ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XP44VQ4CP;
+				INFOPLIST_FILE = TaoBaoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QiuHao.TaoBaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaoBao.app/TaoBao";
+			};
+			name = Release;
+		};
+		DE6411E72264BC8A00CD4ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XP44VQ4CP;
+				INFOPLIST_FILE = TaoBaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QiuHao.TaoBaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaoBao;
+			};
+			name = Debug;
+		};
+		DE6411E82264BC8A00CD4ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XP44VQ4CP;
+				INFOPLIST_FILE = TaoBaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QiuHao.TaoBaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaoBao;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE6411AF2264BC8900CD4ADF /* Build configuration list for PBXProject "TaoBao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE6411DE2264BC8A00CD4ADF /* Debug */,
+				DE6411DF2264BC8A00CD4ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE6411E02264BC8A00CD4ADF /* Build configuration list for PBXNativeTarget "TaoBao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE6411E12264BC8A00CD4ADF /* Debug */,
+				DE6411E22264BC8A00CD4ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE6411E32264BC8A00CD4ADF /* Build configuration list for PBXNativeTarget "TaoBaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE6411E42264BC8A00CD4ADF /* Debug */,
+				DE6411E52264BC8A00CD4ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE6411E62264BC8A00CD4ADF /* Build configuration list for PBXNativeTarget "TaoBaoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE6411E72264BC8A00CD4ADF /* Debug */,
+				DE6411E82264BC8A00CD4ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE6411AC2264BC8900CD4ADF /* Project object */;
+}
